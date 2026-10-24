@@ -1,337 +1,327 @@
 <div align="center">
 
-<img src="./project_zax_logo.png" alt="project_zax.png" width="230">
+<img src="./project_zax.png" alt="Official Logo" width="195">
 
 # Project_Zax
 
-### Nintendo 3DS Native Recompilation Project
+### NATIVE RECOMPILATION PROJECT
 
-**Windows · Linux · Android**
+**Nintendo 3DS → Windows · Linux · Android**
 
-![Development](https://img.shields.io/badge/Development-Active-FF7900?style=for-the-badge&labelColor=171717)
-![Maintainer](https://img.shields.io/badge/Developer-Independent-FFFFFF?style=for-the-badge&labelColor=171717)
+![Development](https://img.shields.io/badge/DEVELOPMENT-ACTIVE-FF7900?style=for-the-badge&labelColor=111111)
+![Developer](https://img.shields.io/badge/INDEPENDENT-SOLO_DEVELOPER-FFFFFF?style=for-the-badge&labelColor=111111)
 
-**Native Recompilation — Not Emulation**
+**Recompilation, not emulation.**
 
-*An independent project developed in my free time.*
+*One developer. Many ideas. Built for the community.*
 
 ---
 
-![Windows](https://img.shields.io/badge/Windows-Beta-FF7900?style=flat-square&labelColor=171717)
-![Linux](https://img.shields.io/badge/Linux-Beta-FF7900?style=flat-square&labelColor=171717)
-![Android](https://img.shields.io/badge/Android-Alpha_Testing-FFFFFF?style=flat-square&labelColor=171717)
+![Windows](https://img.shields.io/badge/WINDOWS-BETA-FF7900?style=flat-square&labelColor=111111)
+![Linux](https://img.shields.io/badge/LINUX-BETA-FF7900?style=flat-square&labelColor=111111)
+![Android](https://img.shields.io/badge/ANDROID-ALPHA-FFFFFF?style=flat-square&labelColor=111111)
 
-[![Releases](https://img.shields.io/badge/GitHub-Releases-FF7900?style=for-the-badge&logo=github&logoColor=white&labelColor=171717)](https://github.com/ZaxParra42/Project-ZAX/releases)
-[![Reports](https://img.shields.io/badge/GitHub-Report_an_Issue-FFFFFF?style=for-the-badge&logo=github&logoColor=white&labelColor=171717)](https://github.com/ZaxParra42/Project-ZAX/issues)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Project_Updates-FF7900?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=171717)](https://whatsapp.com/channel/0029VbDl1fa7T8bOPMjdA60p)
+[![Releases](https://img.shields.io/badge/RELEASES-FF7900?style=for-the-badge&logo=github&logoColor=white&labelColor=111111)](https://github.com/ZaxParra22/Project_ZAX/releases)
+[![Reports](https://img.shields.io/badge/BUG_REPORTS-FFFFFF?style=for-the-badge&logo=github&logoColor=white&labelColor=111111)](https://github.com/ZaxParra22/Project_ZAX/issues)
+[![Community](https://img.shields.io/badge/COMMUNITY-FF7900?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=111111)](https://whatsapp.com/channel/0029VbDl1fa7T8bOPMjdA60p)
 
 </div>
 
 ---
 
-## About Project_Zax
+## 01 / Overview
 
-Hey! Welcome to **Project_Zax**.
+Hey! Welcome to my little corner of game development.
 
-I'm a programmer who enjoys spending his free time experimenting with software, learning new things, and creating projects for the community.
+I'm an independent programmer who enjoys spending his free time experimenting with software, learning new things, and building projects for the community.
 
-Project_Zax focuses on bringing Nintendo 3DS games to Windows, Linux, and Android through native code recompilation.
+This project explores bringing Nintendo 3DS games to modern platforms through **native code recompilation**, translating game code into native executables rather than relying on traditional emulation.
 
-Instead of relying on traditional emulation, the project works on translating game code into native executables and adapting the necessary systems to run on modern platforms.
+The goal is simple: improve compatibility, performance, and graphical flexibility while preserving the original gaming experience.
 
-The main goal is to improve compatibility, stability, graphical rendering, and performance while keeping the original gameplay experience.
+### Built independently
 
-### Independent Development
+Everything is currently developed and maintained by one person.
 
-Project_Zax is currently developed and maintained by just one person.
+From recompilation and graphics integration to optimization, debugging, and testing, I handle the development myself.
 
-I handle the recompilation work, graphics integration, optimization, debugging, and general development myself.
+There's no large team behind this work, and progress depends on my available time. Some challenges take longer than expected, but that's part of experimenting and learning.
 
-Since I work on the project during my free time, progress may vary depending on my availability and the technical problems I encounter.
-
-I also have a limited number of devices and testers, so community feedback is especially helpful.
-
-The project is still evolving, and there's plenty of work left to do.
+**The project is developed individually, but community feedback helps make it better.**
 
 ---
 
-## Development Status
+## 02 / Development Status
 
 ### Platforms
 
 | Platform | Status | Current Focus |
-|:---|:---|:---|
-| **Windows** | Beta | Optimization, compatibility, and bug fixes |
-| **Linux** | Beta | Stability and compatibility testing |
-| **Android** | Alpha Testing | Mobile adaptation and optimization |
+|:---|:---:|:---|
+| **Windows** | `BETA` | Performance and compatibility |
+| **Linux** | `BETA` | Stability and testing |
+| **Android** | `ALPHA` | Mobile adaptation and optimization |
 
-Windows and Linux are currently undergoing Beta refinement.
+Windows and Linux are undergoing Beta refinement.
 
-Android is still in Alpha testing. It requires additional work to adapt rendering, controls, and resource management to mobile devices.
+Android is still in Alpha testing, with ongoing work on rendering efficiency, controls, and hardware adaptation.
 
-Please note that the development stage does not necessarily indicate that a public build is available.
+> **Note:** Development status does not necessarily mean a public build is available. Features and compatibility may change between versions.
 
-### Games
+---
 
-| Game | Status | Notes |
-|:---|:---|:---|
-| **Monster Hunter 4 Ultimate** | Beta | Main development focus |
-| **Monster Hunter XX** | Beta | Upcoming release |
-| **Monster Hunter 4G** | Testing | Experimental development |
+## 03 / Games
 
 ### Monster Hunter 4 Ultimate
 
-![MH4U](https://img.shields.io/badge/MH4U-BETA-FF7900?style=for-the-badge&labelColor=171717)
+![MH4U](https://img.shields.io/badge/MH4U-BETA-FF7900?style=for-the-badge&labelColor=111111)
 
-MH4U is currently the main focus of Project_Zax.
+**CURRENT FOCUS**
 
-I'm working on improving graphical rendering, correcting lighting and shadow issues, optimizing performance, and fixing problems found during testing.
+The main development target, currently undergoing Beta refinement.
 
-The goal is to make the Beta more stable across different hardware configurations.
+Work focuses on improving rendering accuracy, correcting lighting and shadow issues, optimizing performance, and addressing stability problems.
+
+Compatibility across different hardware configurations remains an important priority.
 
 ### Monster Hunter XX
 
-![MHXX](https://img.shields.io/badge/MHXX-BETA_COMING_SOON-FF7900?style=for-the-badge&labelColor=171717)
+![MHXX](https://img.shields.io/badge/MHXX-UPCOMING_BETA-FF7900?style=for-the-badge&labelColor=111111)
 
-Monster Hunter XX is also in Beta development and is planned as the next release.
+**NEXT RELEASE**
 
-Development includes adapting the existing recompilation systems and addressing compatibility issues specific to this game.
+Currently in Beta development, with an upcoming release planned.
 
-More details will be shared as the build approaches release.
+The existing recompilation infrastructure is being adapted and tested to handle the game's specific requirements.
+
+Additional details will be shared as the build gets closer to release.
 
 ### Monster Hunter 4G
 
-![MH4G](https://img.shields.io/badge/MH4G-TESTING-FFFFFF?style=for-the-badge&labelColor=171717)
+![MH4G](https://img.shields.io/badge/MH4G-TESTING-FFFFFF?style=for-the-badge&labelColor=111111)
 
-Monster Hunter 4G is currently undergoing technical testing.
+**EXPERIMENTAL**
 
-I'm exploring the possibility of supporting MH4G and MH4U within a shared environment, while accounting for the differences between both versions.
+Currently undergoing technical testing.
 
-This is still experimental and has not been confirmed as a release feature.
+I'm exploring the possibility of supporting MH4G and MH4U within a shared environment while accounting for differences between both versions.
+
+This remains an experimental goal rather than a confirmed feature.
+
+### Current Lineup
+
+| Title | Stage | Priority |
+|:---|:---|:---|
+| Monster Hunter 4 Ultimate | Beta | Main focus |
+| Monster Hunter XX | Beta | Upcoming release |
+| Monster Hunter 4G | Testing | Experimental |
 
 ---
 
-## Technical Development
+## 04 / Under the Hood
 
-Project_Zax includes several systems that I'm continuing to develop and improve.
+The work goes beyond simply getting games to launch. A large part of development involves adapting the original code and improving how it runs on modern systems.
 
 ### Native Recompilation
 
-- Translation of game code for native execution.
+- Translation of game code into native executable code.
 - Automatic detection of unresolved function dependencies.
 - Alternative processing paths for unresolved references.
 - Reference recalculation and validation.
-- Handling of duplicate references and false positives.
-- Improvements to code organization and recompilation processing.
+- Duplicate and false-positive handling.
+- Improvements to the recompilation workflow.
 
-### Graphics and Rendering
+### Graphics & Rendering
 
 - Independent graphics layer integration.
 - Vulkan and OpenGL development.
-- Rendering compatibility improvements.
 - Lighting and shadow corrections.
-- Performance and graphical optimizations.
-- In-game graphics configuration.
+- Rendering compatibility improvements.
+- In-game graphical settings.
+- Performance-oriented optimizations.
 
-### Display and Interface
+### Display & Controls
 
 - Dynamic secondary-screen management.
 - Automatic screen-format detection.
-- Adaptation of Nintendo 3DS dual-screen layouts.
-- Interface and control configuration development.
+- Dual-screen layout adaptation.
+- Platform-specific interface and input development.
 
-### Android Development
+### Android
 
-- Adaptation of the recompilation environment.
-- Mobile graphics integration.
-- Touchscreen control development.
-- Rendering workload optimization.
-- Background processing and resource management improvements.
+Mobile development introduces additional challenges related to rendering workloads, memory usage, and hardware differences.
 
-Some features are still experimental. Their availability and functionality may differ between platforms and development builds.
+Current experiments focus on optimizing screen updates, improving background processing, and adapting the interface for touchscreen devices.
+
+*Some systems remain experimental and may not be available in every build.*
 
 ---
 
-## Community Testing & Bug Reports
+## 05 / Testing Matters
 
-### Your feedback helps improve Project_Zax
+### A little help goes a long way
 
-One of the biggest challenges of working on this project alone is testing.
+One of the biggest challenges of developing alone is testing.
 
-I don't have a large testing team or enough hardware to check every possible configuration.
+I don't have a large testing team or enough hardware to verify how everything behaves across different computers and devices.
 
-Something that works correctly on my computer might have graphical problems, performance issues, or crashes on another device.
+Something that works perfectly on my setup might have issues on yours.
 
-That's why I would really appreciate it if users who test Project_Zax could share their results.
+**If you try a build, I'd really appreciate it if you could share your results.**
 
-**You don't need to know programming to help.**
+You don't need programming experience to contribute.
 
-If you try a build, I'd like to know how it behaves on your hardware.
+Even a short report can help identify problems and improve future versions.
 
-I'm particularly interested in reports about:
+### What can you report?
 
-- Games launching and running correctly.
-- Crashes, freezes, or unexpected behavior.
-- Graphics, lighting, and shadow problems.
-- Performance drops or unstable frame rates.
-- Controller and touchscreen issues.
-- Problems with the secondary screen.
-- Other compatibility issues encountered during gameplay.
+- Does the game launch correctly?
+- How does it perform on your hardware?
+- Are there graphical glitches or missing effects?
+- Do lighting and shadows look correct?
+- Are there crashes, freezes, or unexpected behaviors?
+- Do controls and the secondary screen work properly?
 
-### Working correctly? Let me know too!
+**Everything working fine? That's useful too.**
 
-Bug reports aren't the only useful reports.
+Knowing which hardware configurations work correctly is just as valuable as finding bugs.
 
-If a game works well on your computer or device, that information helps me understand which configurations are compatible.
+### Reporting an Issue
 
-Knowing what works is just as important as knowing what doesn't.
-
-### How to Submit a Report
-
-You can submit your results through GitHub Issues.
-
-Please include the following information whenever possible:
+Please include as much information as possible:
 
 | Information | Details |
 |:---|:---|
-| Game | MH4U, MHXX, or MH4G |
-| Platform | Windows, Linux, or Android |
-| Build | Version being tested |
-| CPU | Processor model |
-| GPU | Graphics processor |
+| Game | MH4U / MHXX / MH4G |
+| Platform | Windows / Linux / Android |
+| Build | Version tested |
+| CPU / GPU | Hardware models |
 | RAM | Installed memory |
-| Renderer | Vulkan or OpenGL, if applicable |
-| Performance | FPS or general performance observations |
-| Result | Working, Partially Working, or Not Working |
-| Description | What happened during testing |
+| Renderer | Vulkan / OpenGL, if applicable |
+| Performance | FPS and stability |
+| Result | Working / Partial / Failed |
+| Details | Problems or testing observations |
 
-Screenshots, logs, or short recordings are also useful when reporting problems.
+Screenshots, logs, and recordings are welcome.
 
-If something crashes or behaves incorrectly, explaining how to reproduce the issue makes it easier for me to investigate.
-
-You don't have to provide everything perfectly. Just share the information you have available.
+For bugs, reproduction steps are especially helpful. Please avoid sharing copyrighted game files or personal information.
 
 <div align="center">
 
-### Help Improve the Next Build
+### FOUND SOMETHING? LET ME KNOW.
 
-[![Report an Issue](https://img.shields.io/badge/SUBMIT_A_TEST_REPORT-FF7900?style=for-the-badge&logo=github&logoColor=white&labelColor=171717)](https://github.com/ZaxParra42/Project-ZAX/issues/new)
+[![Submit Report](https://img.shields.io/badge/OPEN_A_TEST_REPORT-FF7900?style=for-the-badge&logo=github&logoColor=white&labelColor=111111)](https://github.com/ZaxParra22/Project_ZAX/issues/new)
 
-*Your reports help me identify problems, prioritize fixes, and improve future releases.*
+*Your feedback helps turn today's problems into tomorrow's fixes.*
 
 </div>
 
 ---
 
-## Development Roadmap
+## 06 / Roadmap
 
-| Project | Current Stage |
+There's still plenty to improve, and priorities may change as testing continues.
+
+| Area | Current Direction |
 |:---|:---|
-| MH4U | Beta refinement |
-| MHXX | Upcoming Beta release |
-| MH4G | Technical testing |
-| MH4G / MH4U shared support | Experimental |
-| Windows | Beta optimization |
-| Linux | Beta testing |
+| MH4U | Beta refinement and bug fixing |
+| MHXX | Preparing the upcoming Beta |
+| MH4G | Testing and compatibility research |
+| Windows / Linux | Optimization and stability |
 | Android | Alpha development |
+| Community | Expanding testing and compatibility reports |
 
-### Progress
+### Milestones
 
 - [x] Initial native recompilation framework.
 - [x] Reference processing improvements.
 - [x] Initial native PC execution.
 - [x] Graphics layer integration.
 - [x] Dynamic secondary-screen development.
-- [x] MH4U Beta development.
-- [x] MHXX Beta development.
-- [x] Windows and Linux Beta testing.
+- [x] MH4U and MHXX Beta development.
+- [x] Windows and Linux Beta testing started.
 - [x] Android Alpha testing started.
 - [ ] Continue refining MH4U.
-- [ ] Prepare the upcoming MHXX Beta release.
-- [ ] Expand compatibility testing.
-- [ ] Continue Android development.
-- [ ] Investigate shared MH4G / MH4U support.
-- [ ] Improve documentation and testing resources.
+- [ ] Prepare the MHXX public Beta.
+- [ ] Expand hardware compatibility testing.
+- [ ] Continue Android optimization.
+- [ ] Investigate MH4G / MH4U shared support.
+- [ ] Improve documentation and reporting resources.
 
-The roadmap may change depending on development progress, testing results, and technical limitations.
+No fixed release dates are guaranteed.
 
 ---
 
-## Releases & Downloads
+## 07 / Releases
 
-Official Project_Zax builds will be published through GitHub Releases when they're ready.
+Official builds will be published through GitHub Releases when ready.
 
-Each release will include relevant information about the supported platforms, installation process, known issues, and changes.
+Release notes will include supported platforms, installation instructions, known limitations, compatibility information, and relevant improvements.
 
 <div align="center">
 
-[![GitHub Releases](https://img.shields.io/badge/VIEW-GITHUB_RELEASES-FF7900?style=for-the-badge&logo=github&logoColor=white&labelColor=171717)](https://github.com/ZaxParra42/Project-ZAX/releases)
+[![View Releases](https://img.shields.io/badge/VIEW_RELEASES-FF7900?style=for-the-badge&logo=github&logoColor=white&labelColor=111111)](https://github.com/ZaxParra22/Project_ZAX/releases)
 
 </div>
 
-Since the project is still in development, Beta and Alpha builds may contain bugs or incomplete features.
+Beta and Alpha builds may contain bugs, incomplete features, or unexpected behavior.
 
-There are no guaranteed release dates.
-
-I'll continue sharing updates as development progresses.
+I'd rather spend more time fixing important issues than rush an unfinished release.
 
 ---
 
-## News & Community
+## 08 / Community
 
-You can follow Project_Zax through the official WhatsApp channel.
+Want to follow development progress?
 
-I use it to share development progress, announcements, screenshots, and information about upcoming builds.
+I share updates, announcements, screenshots, and upcoming release information through the official WhatsApp channel.
 
 <div align="center">
 
-[![WhatsApp Channel](https://img.shields.io/badge/FOLLOW_PROJECT__ZAX-WHATSAPP-FF7900?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=171717)](https://whatsapp.com/channel/0029VbDl1fa7T8bOPMjdA60p)
+[![WhatsApp Channel](https://img.shields.io/badge/FOLLOW_DEVELOPMENT-WHATSAPP-FF7900?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=111111)](https://whatsapp.com/channel/0029VbDl1fa7T8bOPMjdA60p)
 
 </div>
 
-For technical issues and compatibility reports, please use GitHub Issues.
+For technical problems and compatibility reports, please use GitHub Issues.
 
-Keeping reports in one place makes them easier to review, reproduce, and track while I work on corrections.
-
----
-
-## A Note From the Developer
-
-I understand that most people simply want to download a game and enjoy playing it. That's completely fine.
-
-However, Project_Zax is still in development, and testing is an important part of improving it.
-
-Since I'm working on everything individually, I can't always identify every problem or reproduce issues that only appear on certain devices.
-
-That's why I encourage users who try the builds to share their experiences, even if everything works correctly.
-
-I may not be able to fix every problem immediately or respond to every report, but I do review feedback whenever possible and use it to guide development.
-
-You don't need to contribute code to support the project. Testing a build and sharing the results is already a valuable contribution.
-
-Thanks to everyone who follows the development, shares suggestions, and takes the time to help.
+Keeping reports organized makes it easier to reproduce problems and track fixes.
 
 ---
 
-## Credits & Acknowledgements
+## 09 / A Note From the Developer
 
-Project_Zax is independently developed, but it also benefits from the research and knowledge shared by the recompilation, reverse-engineering, graphics programming, and open-source communities.
+I know most people simply want to download a game and enjoy playing it. That's completely understandable.
 
-Third-party tools, libraries, and dependencies will receive their corresponding credits in the project documentation.
+But while these ports are still being developed, testing is one of the most helpful things the community can do.
 
-Thanks as well to everyone contributing testing results, reporting issues, or sharing useful suggestions.
+I can't test every device or fix every issue immediately, especially while handling development on my own.
 
-Your participation is appreciated.
+If you have a chance to try a build, sharing what worked and what didn't would mean a lot.
+
+You don't need to contribute code or understand recompilation to help. Your experience alone can provide valuable information.
+
+I'll keep experimenting, learning, and improving things whenever I can.
+
+**Thanks for following along and being part of the process.**
 
 ---
 
-## Disclaimer
+## 10 / Credits
 
-Project_Zax is an independent, unofficial project and is not affiliated with Nintendo, Capcom, or their subsidiaries.
+This work builds on research, tools, and knowledge shared by the recompilation, reverse-engineering, graphics programming, and open-source communities.
+
+Third-party tools and dependencies will receive their corresponding credits and license notices in the documentation.
+
+Thanks to everyone who contributes useful feedback, tests builds, or shares suggestions.
+
+---
+
+## Legal Disclaimer
+
+This is an independent, unofficial development project and is not affiliated with Nintendo, Capcom, or their subsidiaries.
 
 All trademarks, game titles, and copyrighted materials belong to their respective owners.
 
-This repository does not distribute copyrighted game files, proprietary assets, or encryption keys.
+No copyrighted game files, proprietary assets, or encryption keys are distributed through this repository.
 
 Users are responsible for obtaining and using their own game files in accordance with applicable laws.
 
@@ -339,17 +329,17 @@ Users are responsible for obtaining and using their own game files in accordance
 
 <div align="center">
 
-### Project_Zax
+<img src="./project_zax.png" alt="Logo" width="85">
 
-**ONE DEVELOPER. MANY IDEAS.**
+### ONE DEVELOPER. MANY IDEAS.
 
-![Project Zax](https://img.shields.io/badge/RECOMPILATION-NOT_EMULATION-FF7900?style=for-the-badge&labelColor=171717)
+**Made in my free time. Improved with your feedback.**
 
-*Built in my free time. Improved with your feedback.*
+![Recompilation](https://img.shields.io/badge/RECOMPILATION-NOT_EMULATION-FF7900?style=for-the-badge&labelColor=111111)
 
-**Thanks for being part of the project.**
+*Thanks for being part of the journey.*
 
-[![WhatsApp](https://img.shields.io/badge/WHATSAPP-UPDATES-FF7900?style=flat-square&logo=whatsapp&logoColor=white&labelColor=171717)](https://whatsapp.com/channel/0029VbDl1fa7T8bOPMjdA60p)
-[![GitHub](https://img.shields.io/badge/GITHUB-ISSUES-FFFFFF?style=flat-square&logo=github&logoColor=white&labelColor=171717)](https://github.com/ZaxParra42/Project-ZAX/issues)
+[![WhatsApp](https://img.shields.io/badge/WHATSAPP-UPDATES-FF7900?style=flat-square&logo=whatsapp&logoColor=white&labelColor=111111)](https://whatsapp.com/channel/0029VbDl1fa7T8bOPMjdA60p)
+[![GitHub](https://img.shields.io/badge/GITHUB-ISSUES-FFFFFF?style=flat-square&logo=github&logoColor=white&labelColor=111111)](https://github.com/ZaxParra22/Project_ZAX/issues)
 
 </div>
