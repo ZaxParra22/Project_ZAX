@@ -1,6 +1,6 @@
  <div align="center">
 
-# project_Zax
+# Project3ds_Zax
 
 ### NATIVE GAME RECOMPILATION
 
