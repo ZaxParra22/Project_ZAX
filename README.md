@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./project_zax_logo.png" alt="Project_Zax Logo" width="230">
+<img src="./project_zax_logo.png" alt="project_zax.png" width="230">
 
 # Project_Zax
 
